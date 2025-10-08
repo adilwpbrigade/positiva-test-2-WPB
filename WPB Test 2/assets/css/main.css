@@ -3,8 +3,8 @@
 
 @font-face {
   font-family: 'Helvetica';
-  src: url('/assets/fonts/Helvetica.woff2') format('woff2'),
-    url('/assets/fonts/Helvetica.woff') format('woff');
+  src: url('assets/fonts/Helvetica.woff2') format('woff2'),
+    url('assets/fonts/Helvetica.woff') format('woff');
 
   font-style: normal;
   font-display: swap;
@@ -12,8 +12,8 @@
 
 @font-face {
   font-family: 'Segoe UI';
-  src: url('/assets/fonts/SegoeUI.woff2') format('woff2'),
-    url('/assets/fonts/SegoeUI.woff') format('woff');
+  src: url('assets/fonts/SegoeUI.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI.woff') format('woff');
 
   font-style: normal;
   font-display: swap;
@@ -21,8 +21,8 @@
 
 @font-face {
   font-family: 'Titillium Web';
-  src: url('/assets/fonts/TitilliumWeb-Regular.woff2') format('woff2'),
-    url('/assets/fonts/TitilliumWeb-Regular.woff') format('woff');
+  src: url('assets/fonts/TitilliumWeb-Regular.woff2') format('woff2'),
+    url('assets/fonts/TitilliumWeb-Regular.woff') format('woff');
 
   font-style: normal;
   font-display: swap;
@@ -221,7 +221,7 @@ header{
 }
 
 .Logo-bar {
-  background-image: url('/assets/images/Fondo\ copia.png');
+  background-image: url('assets/images/Fondo\ copia.png');
 }
 
 .Logo-bar>.container {
@@ -617,7 +617,7 @@ span.text4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(rgba(99, 99, 99, 0.9), rgba(99, 99, 99, 0.9)), url('/assets/images/card-hover.png');
+  background-image: linear-gradient(rgba(99, 99, 99, 0.9), rgba(99, 99, 99, 0.9)), url('assets/images/card-hover.png');
   background-size: cover;
   background-position: center;
   padding: 20px 50px;
@@ -1248,7 +1248,7 @@ span.text4 {
 }
 
 .banner-card {
-  background-image: url('/assets/images/card-banner.png');
+  background-image: url('assets/images/card-banner.png');
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1398,7 +1398,7 @@ left:0;
 
 .evento-tab-content input[type="date"]::after {
   content: "";
-  background: url('/assets/images/calendar\ copia.svg') no-repeat center;
+  background: url('assets/images/calendar\ copia.svg') no-repeat center;
   background-size: 20px 20px;
   position: absolute;
   right: 8px;
@@ -1494,14 +1494,14 @@ left:0;
 
 .custom-button-next {
   right: 10px;
-  background-image: url('/assets/images/arrow-circle-left.png');
+  background-image: url('assets/images/arrow-circle-left.png');
   /* replace with your arrow */
   transform: translateY(-50%) rotate(180deg);
 }
 
 .custom-button-prev {
   left: 10px;
-  background-image: url('/assets/images/arrow-circle-left.png');
+  background-image: url('assets/images/arrow-circle-left.png');
 
 
 }
@@ -1681,7 +1681,7 @@ color: var(--color-accent);
   top: 4px;
   width: 14px;
   height: 9px;
-  background: url("/assets/images/mail.svg") no-repeat center center; 
+  background: url("assets/images/mail.svg") no-repeat center center; 
  
 }
 .information > ul > li > a{
